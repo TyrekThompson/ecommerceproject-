@@ -1,0 +1,69 @@
+h1 {
+ color: black ;
+ text-align: center;
+ font-size: 200%;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    color: gray;
+}
+nav{
+background-color:black;
+margin: 0%;
+padding: 0%;
+overflow: hidden;
+font-size: 200%;
+text-align: center;
+}
+
+.slide{
+    width: 1000px;
+    height: 1000px;
+    margin:  auto;
+    animation: slide 50s alternate-reverse;
+    background:url(https://bit.ly/3liOxcT);
+
+     
+}
+@keyframes slide {
+    25% {
+        background: url(https://bit.ly/34pW5nq);
+    }
+    50% {
+        background: url(https://bit.ly/3lkLdhy);
+    }
+    75%{
+        background: url(https://bit.ly/3izlWhJ);
+    }
+    100% {
+        Background: url(https://bit.ly/2I3uSiU);
+    }
+}
+
+footer{
+ width: 100%;
+ background-color: black;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 200%;
+}
+    
+body{
+    background-color: gray;
+}
+@media screen and (max-width:790px) {}
+
+.slide{
+    width: 799vw;
+    height: 799px;
+    margin:  auto;
+    animation: slide 50s alternate;
+    background:url(https://bit.ly/36jat3y);
+
+     
+
+}
